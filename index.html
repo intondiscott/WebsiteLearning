@@ -1,9 +1,3 @@
-<!--
-for each task(feature branch) you create a new branch from the main branch and then merge it back into the main branch when the task is complete. 
-This way, you can work on multiple features simultaneously without interfering with each other's work.
--->
-
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -24,20 +18,20 @@ This way, you can work on multiple features simultaneously without interfering w
 
     <!-- Main Content -->
     <main id="main-content">
-      
+
       <!-- Form to Add / Edit Notes -->
       <section class="card">
         <h2 id="form-title">Add Note</h2>
         <form id="note-form">
           <input type="hidden" id="note-index" value="-1" />
-          
+
           <div class="field">
-            <label>Title</label>
+            <label for="note-title">Title</label>
             <input type="text" id="note-title" required />
           </div>
 
           <div class="field">
-            <label>Content</label>
+            <label for="note-body">Content</label>
             <textarea id="note-body" required></textarea>
           </div>
 
